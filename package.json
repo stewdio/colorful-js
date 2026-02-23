@@ -1,0 +1,43 @@
+{
+	"name": "colorful-js",
+	"version": "0.0.1",
+	"description": "Lightweight color space juggling in JavaScript.",
+	"author": "Stewart Smith",
+	"license": "MIT",
+	"homepage": "https://github.com/stewdio/colorful-js#readme",
+	"repository": {
+	
+		"type": "git",
+		"url": "git+https://github.com/stewdio/colorful-js.git"
+	},
+	"type": "module",
+	"main": "Colorful.js",
+	"exports": {
+		
+		".": "./Colorful.js"
+	},
+	"files": [
+
+		"Colorful.js",
+		"README.md",
+		"LICENSE"
+	],
+	"keywords": [
+	
+		"color",
+		"rgb", "rgba",
+		"hsl", "hsla",
+		"hsb", "hsba",
+		"cmyk",
+		"hex"
+	],
+	
+	"bugs": {
+
+		"url": "https://github.com/stewdio/colorful-js/issues"
+	},
+	"dependencies": {
+
+		"snacks-js": "^1.1.0"
+	}
+}

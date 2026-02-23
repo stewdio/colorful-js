@@ -1,0 +1,50 @@
+
+
+#  Folder view configuration files
+.DS_Store
+Desktop.ini
+
+#  Thumbnail cache files
+._*
+Thumbs.db
+
+#  Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+#  Local env files
+.env
+.env.*
+!.env.example
+
+#  Compiled Python files
+*.pyc
+
+#  Compiled C++ files
+*.out
+
+#  Application specific files
+venv
+.sass-cache
+
+#  Node dependencies
+build/npm*
+node_modules
+npm-debug.log
+
+#  Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+
+#  Logs
+logs
+*.log
+
+#  Misc
+.fleet
+.idea
+
